@@ -24,7 +24,7 @@ return [
         'address'     => "13, rue du Maréchal Foch 67000 Strasbourg, France",
 
         'logo'        => [
-            'path'   => '%PUBLIC%/img/logo/logo-small.png',
+            'path'   => '%PUBLIC%/img/logo/logo-trans.png',
             'width'  => '40',
             'height' => '40',
         ],
