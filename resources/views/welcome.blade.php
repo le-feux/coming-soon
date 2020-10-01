@@ -27,17 +27,17 @@
     				<div class="display-table-cell">
     					<div class="main-content">
                             @if ($subscribe)
-                                <h1 class="title"><b>Une dernière étape !</b></h1>
+                                <h1 class="title"><b>Une dernière étape!</b></h1>
                                 <p class="desc">
-                                    Pour activer votre reduction de 50% sur tous nos produits cosmétiques au lancement du site, invite tes amis à essayer Europ'Cos. <br>
+                                    Pour activer votre réduction de 50% sur tous nos produits cosmétiques au lancement du site, invite tes amis à essayer Europ'Cos. <br>
 
                                     <br>
                                     <a href="https://bit.ly/europcos50" class="active-btn"><b>Activer</b></a>
                                 </p>
                             @else
-                                <h1 class="title"><b>Le meilleur de la cosmétique livré chez vous</b></h1>
+                                <h1 class="title"><b>Le meilleur de la cosmétique livré chez vous!</b></h1>
                                 <p class="desc">
-                                    Binetôt nous serons en ligne. Inscrivez)vous sur notre liste d'attente pour profiter de 50% de reduction sur tous nos produits qu lancement !
+                                    Bientôt nous serons en ligne. Inscrivez vous sur notre liste d'attente pour profiter de 50% de réduction sur tous nos produits au lancement!
                                 </p>
         						<div class="email-input-area">
                                     @if ($errors->any())
