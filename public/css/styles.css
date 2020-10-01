@@ -109,7 +109,7 @@ html {
 
 .font-white{ color: #fff; }
 
-.main-area{ position: relative; height: 100vh; background: #0C0D0F; color: #fff; }
+.main-area{ position: relative; height: 100vh; background: #fffs; color: #000; }
 
 
 /* ---------------------------------
@@ -145,7 +145,7 @@ html {
 
 .main-content .title{ margin-bottom: 15px; }
 
-.main-content .desc{ color: #eee; }
+.main-content .desc{ color: #111; }
 
 .main-content .email-input-area{ margin: 40px 0 20px; position: relative; width: 400px; height: 47px; }
 
