@@ -11,7 +11,7 @@ return [
     */
 
     'colors' => [
-        'highlight' => '#2957e1',
+        'highlight' => '#fff',
         'button'    => '#000',
         // 'highlight' => '#004ca3',
         // 'button'    => '#004cad',
@@ -25,8 +25,8 @@ return [
 
         'logo'        => [
             'path'   => '%PUBLIC%/img/logo/logo-trans.png',
-            'width'  => '40',
-            'height' => '40',
+            'width'  => '70',
+            'height' => '70',
         ],
 
         'twitter'  => 'Europcos',

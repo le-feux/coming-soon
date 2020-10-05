@@ -16,54 +16,56 @@
     </head>
     <body>
     	<div class="main-area">
-    		<section class="left-section" style="background-image: url({{ asset('img/coming-soon.png') }})"></section>
+    		<section class="left-section d-none" style="background-image: url({{ asset('img/coming-soon.png') }})"></section>
 
-    		<section class="right-section full-height">
-    			<a class="logo" href="{{ route('welcome') }}">
-                    <img src="{{ asset('img/logo/logo-trans.png') }}" alt="Logo">
-                </a>
+    		<section class="content-height">
+                <section class="right-section full-height">
+        			<a class="logo" href="{{ route('welcome') }}">
+                        <img src="{{ asset('img/logo/logo-trans.png') }}" alt="Logo">
+                    </a>
 
-    			<div class="display-table">
-    				<div class="display-table-cell">
-    					<div class="main-content">
-                            @if ($subscribe)
-                                <h1 class="title"><b>Une dernière étape!</b></h1>
-                                <p class="desc">
-                                    Pour activer votre réduction de 50% sur tous nos produits cosmétiques au lancement du site, invite tes amis à essayer Europ'Cos. <br>
+        			<div class="display-table">
+        				<div class="display-table-cell">
+        					<div class="main-content">
+                                @if ($subscribe)
+                                    <h1 class="title"><b>Une dernière étape!</b></h1>
+                                    <p class="desc">
+                                        Pour activer votre réduction de 50% sur tous nos produits cosmétiques au lancement du site, invite tes amis à essayer Europ'Cos. <br>
 
-                                    <br>
-                                    <a href="https://bit.ly/europcos50" class="active-btn"><b>Activer</b></a>
-                                </p>
-                            @else
-                                <h1 class="title"><b>Le meilleur de la cosmétique livré chez vous!</b></h1>
-                                <p class="desc">
-                                    Bientôt nous serons en ligne. Inscrivez vous sur notre liste d'attente pour profiter de 50% de réduction sur tous nos produits au lancement!
-                                </p>
-        						<div class="email-input-area">
-                                    @if ($errors->any())
-                                        <div class="alert alert-danger" role="alert">
-                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            @foreach ($errors->all() as $error)
-                                                <ul>
-                                                    <li> {{ $error }} </li>
-                                                </ul>
-                                            @endforeach
-                                        </div>
-                                    @endif
+                                        <br>
+                                        <a href="https://bit.ly/europcos50" class="active-btn"><b>Activer</b></a>
+                                    </p>
+                                @else
+                                    <h1 class="title"><b>Le meilleur de la cosmétique livré chez vous!</b></h1>
+                                    <p class="desc">
+                                        Bientôt nous serons en ligne. Inscrivez vous sur notre liste d'attente pour profiter de 50% de réduction sur tous nos produits au lancement!
+                                    </p>
+            						<div class="email-input-area">
+                                        @if ($errors->any())
+                                            <div class="alert alert-danger" role="alert">
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                @foreach ($errors->all() as $error)
+                                                    <ul>
+                                                        <li> {{ $error }} </li>
+                                                    </ul>
+                                                @endforeach
+                                            </div>
+                                        @endif
 
-                                    {{ Form::open(['url' => route('subscribe')]) }}
-        								<input class="email-input" name="email" type="text" placeholder="Votre adresse email ici !"/>
-        								<button class="submit-btn" name="submit" type="submit"><b>Je m'inscris</b></button>
-        							{{ Form::close() }}
-        						</div>
-        						{{-- <p class="post-desc">Sign up now to get early notification of our lauch date!</p> --}}
-                            @endif
-    					</div>
-    				</div>
-    			</div>
-    		</section>
+                                        {{ Form::open(['url' => route('subscribe')]) }}
+            								<input class="email-input" name="email" type="text" placeholder="Votre adresse email ici !"/>
+            								<button class="submit-btn" name="submit" type="submit"><b>Je m'inscris</b></button>
+            							{{ Form::close() }}
+            						</div>
+            						{{-- <p class="post-desc">Sign up now to get early notification of our lauch date!</p> --}}
+                                @endif
+        					</div>
+        				</div>
+        			</div>
+        		</section>
+            </section>
     	</div>
 
     	<script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
