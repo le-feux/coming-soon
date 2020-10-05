@@ -20,8 +20,5 @@
     RewriteRule ^ /index.php [L]
 
     # Redirect HTTPS
-    SERVER_NAME europcos.com
-    RewriteCond %{SERVER_NAME} =www.europcos.com/ [OR]
-    RewriteCond %{SERVER_NAME} =europcos.com
-    RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+    RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
