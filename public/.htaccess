@@ -20,5 +20,5 @@
     RewriteRule ^ /index.php [L]
 
     # Redirect HTTPS
-    RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    Redirect permanent /  https://www.europcos.com/
 </IfModule>
