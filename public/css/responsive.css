@@ -22,7 +22,7 @@
 
 	.main-area{ position: relative; height: 100%; }
 
-	.content-height{ float: none; width: 100%; background-image: url(http://europcos.com/img/coming-soon.png) !important; background-size: cover !important; }
+	.content-height{ float: none; width: 100%; background-image: url(http://127.0.0.1:8001/img/comingsoon.jpg) !important; background-size: cover !important; }
 
 	.d-none { display: none; }
 

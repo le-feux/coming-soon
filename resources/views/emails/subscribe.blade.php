@@ -18,7 +18,7 @@
 		</tr>
 		<tr>
 			<td class="paragraph" style="text-align:justify">
-                Bienvenue dans la grande famille Europ'Cos. Les meilleurs produits cosmétiques faits en France et livrés chez vous pour une bouchée de pain! <br>
+                Bienvenue dans la grande famille 3D Bioplants. Les meilleurs produits biologiques faits en Suise et livrés chez vous pour une bouchée de pain! <br>
                 Invitez vos amis à nous rejoindre et bénéficiez d'avantages de promos spéciales pour le lancement ici : <a href="https://bit.ly/europcos50">https://bit.ly/europcos50</a>
             </td>
 		</tr>
@@ -28,7 +28,7 @@
 		<tr>
 			<td>
                 Cordialement,<br>
-                <b>Europ</b>Cos
+                <b>3D</b>Bioplants
 			</td>
 		</tr>
 		<tr>

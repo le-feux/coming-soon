@@ -7,7 +7,7 @@
 
         <title>Coming-Soon : {{ config('app.name') }}</title>
 
-        <link rel="icon" href="{{ asset('img/logo/logo-small.png') }}">
+        <link rel="icon" href="{{ asset('img/logo.png') }}">
     	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500">
     	<link rel="stylesheet" href="{{ asset('css/ionicons.css') }}">
     	<link rel="stylesheet" href="{{ asset('css/jquery.classycountdown.css') }}" />
@@ -16,12 +16,12 @@
     </head>
     <body>
     	<div class="main-area">
-    		<section class="left-section d-none" style="background-image: url({{ asset('img/coming-soon.png') }})"></section>
+    		<section class="left-section d-none" style="background-image: url({{ asset('img/comingsoon.jpg') }})"></section>
 
     		<section class="content-height">
                 <section class="right-section full-height">
         			<a class="logo" href="{{ route('welcome') }}">
-                        <img src="{{ asset('img/logo/logo-trans.png') }}" alt="Logo">
+                        <img src="{{ asset('img/logo.png') }}" alt="Logo">
                     </a>
 
         			<div class="display-table">
@@ -30,13 +30,13 @@
                                 @if ($subscribe)
                                     <h1 class="title"><b>Une dernière étape!</b></h1>
                                     <p class="desc">
-                                        Pour activer votre réduction de 50% sur tous nos produits cosmétiques au lancement du site, invite tes amis à essayer Europ'Cos. <br>
+                                        Pour activer votre réduction de 50% sur tous nos produits biologiques au lancement du site, invite tes amis à essayer 3D Bioplants. <br>
 
                                         <br>
                                         <a href="https://bit.ly/europcos50" class="active-btn"><b>Activer</b></a>
                                     </p>
                                 @else
-                                    <h1 class="title"><b>Le meilleur de la cosmétique livré chez vous!</b></h1>
+                                    <h1 class="title"><b>Votre bien-être en 3 dimensions</b></h1>
                                     <p class="desc">
                                         Bientôt nous serons en ligne. Inscrivez vous sur notre liste d'attente pour profiter de 50% de réduction sur tous nos produits au lancement!
                                     </p>

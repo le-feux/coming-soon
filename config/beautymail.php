@@ -18,19 +18,19 @@ return [
     ],
 
     'view' => [
-        'senderName'  => "Europ'cos",
+        'senderName'  => "3D Bioplants",
         'reminder'    => null,
         'unsubscribe' => null,
-        'address'     => "13, rue du Maréchal Foch 67000 Strasbourg, France",
+        'address'     => "Chemin du Tereaux, 1,  1032 Romanel-sur-Lausanne, Suise",
 
         'logo'        => [
-            'path'   => '%PUBLIC%/img/logo/logo-trans.png',
+            'path'   => '%PUBLIC%/img/logo.png',
             'width'  => '70',
             'height' => '70',
         ],
 
-        'twitter'  => 'Europcos',
-        'youtube'  => 'Europcos',
+        'twitter'  => '3DBioplants',
+        'youtube'  => '3DBioplants',
         'flickr'   => null,
     ],
 
