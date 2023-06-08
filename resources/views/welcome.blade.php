@@ -33,7 +33,7 @@
                                         Pour activer votre réduction de 50% sur tous nos produits biologiques au lancement du site, invite tes amis à essayer 3D Bioplants. <br>
 
                                         <br>
-                                        <a href="https://bit.ly/europcos50" class="active-btn"><b>Activer</b></a>
+                                        <a href="https://web.facebook.com/sharer/sharer.php?u=www.3dbioplants.com&_rdc=1&_rdr" class="active-btn"><b>Activer</b></a>
                                     </p>
                                 @else
                                     <h1 class="title"><b>Votre bien-être en 3 dimensions</b></h1>

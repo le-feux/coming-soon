@@ -39,14 +39,14 @@ class CominSoonController extends Controller
             $data_mail = [
                 "subscribe"   => 1,
                 "email"       => $data['email'],
-                "object"      => "Inscription au lancement de Europ'Cos",
+                "object"      => "Inscription au lancement de 3D Bioplants",
                 "message"     => "",
-                "unsubscribe" => "Vous recevez des e-mails de notifications de Europ'Cos"
+                "unsubscribe" => "Vous recevez des e-mails de notifications de 3D Bioplants"
             ];
             $beautymail = app()->make(Beautymail::class);
             $beautymail->send('emails.subscribe', $data_mail, function($message) use ($data_mail)
             {
-                $message->from("info@europcos.com", "Europ'Cos")
+                $message->from("not-reply@3dbioplants.ch", "3D Bioplants")
                 ->to($data_mail['email'], "")
                 ->subject($data_mail['object']);
             });

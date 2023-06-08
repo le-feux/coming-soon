@@ -21,7 +21,7 @@ return [
         'senderName'  => "3D Bioplants",
         'reminder'    => null,
         'unsubscribe' => null,
-        'address'     => "Chemin du Tereaux, 1,  1032 Romanel-sur-Lausanne, Suise",
+        'address'     => "Chemin du Terreaux, 1, 1032 Romanel-sur-Lausanne, Suise",
 
         'logo'        => [
             'path'   => '%PUBLIC%/img/logo.png',
